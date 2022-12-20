@@ -11,7 +11,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Anjel_Neha>☢ Neha ☢</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/VJ_Mdisk_Bot_Owner>☢ VJ ☢</a></b>
 
 <b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/VJ_Bots>VJ Updates 👾</a></b>
 
