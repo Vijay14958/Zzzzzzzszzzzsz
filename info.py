@@ -42,7 +42,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "TechVJv5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Riya_Movie_Request')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VJ_Bot_Disscussion')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VJ_Bots')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/VJ_Bot_Disscussion')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
@@ -50,7 +50,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001855793002))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001855754121))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/VJ_Bots')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Tech_VJ_File')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/TechVJDownload')
 
 # Log Channels
@@ -81,7 +81,7 @@ MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 300))
 
 # URL SHORTNER
 
