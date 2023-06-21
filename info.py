@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27639102'))
 API_HASH = environ.get('API_HASH', '35142c1407be6264e68fb6bec5dcabd9')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5625295308:AAFXY-GLROUI0HVY2fHouqwHkKZRrc0xIkE")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -31,14 +31,14 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001375419446').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001765035645')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Forward123:Forward123@cluster0.4d1ljfv.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "TechVJv5Botsss")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Mdisk123:Mdisk123@cluster0.hx59djt.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "TtBots")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filess')
 
 # Channel Button Links
@@ -51,7 +51,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001855793002))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001855754121))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Tech_VJ_File')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtube.com/shorts/aGTu09WWUcw?feature=share')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtube.com/shorts/rlaA3FiFB-I?feature=share')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001834678099))
@@ -80,13 +80,13 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 MAUTO_DELETE = is_enabled((environ.get('MAUTO_DELETE', "True")), True)
 
 # Delete Time
-DELETE_TIME = int(environ.get('DELETE_TIME', 900))
-SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 900))
+DELETE_TIME = int(environ.get('DELETE_TIME', 1900))
+SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 1900))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tinyfy.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'e90b94ffc7c465c538cf7b623630e6ba0c9926d2')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'moneykamalo.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'dfe0144d77c9429fe7353cf2a534e302a953b667')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
